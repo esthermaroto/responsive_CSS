@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.mensaje {
+    padding: 20px;
+    border: 2px solid black;
+    color: white;
+    font-size: 20px;
+}
+
+/* Estilos para modo vertical (portrait) */
+body {
+    background-color: green;
+}
+
+.mensaje {
+    background-color: darkgreen;
+}
+
+/* Estilos para modo horizontal (landscape) */
+@media (orientation: landscape) {
+    body {
+        background-color: blue;
+    }
+
+    .mensaje {
+        background-color: darkblue;
+    }
+}
