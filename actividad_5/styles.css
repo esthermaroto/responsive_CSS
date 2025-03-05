@@ -1,51 +1,14 @@
-.menu {
+nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
     display: flex;
-    gap: 15px;
-}
-
-.menu li {
-    padding: 10px;
-    background-color: #007BFF;
-    color: white;
-    border-radius: 5px;
+    
 }
 
 @media (max-width: 600px) {
-    .menu {
+    nav ul {
         flex-direction: column;
         align-items: center;
-    }
-}
-
-.mobile-only {
-    display: none;
-}
-
-.desktop-only {
-    display: block;
-}
-
-@media (max-width: 768px) {
-    
-    .mobile-only {
-        display: block;
-        background-color: lightblue;
-    }
-    .desktop-only {
-        display: none;
-        background-color: lightblue;
-    }
-}
-
-@media (max-width: 767px) {
-    .mobile-only {
-        display: none;
-        background-color: #f15353;
-    }
-    .desktop-only {
-        display: block;
-        background-color: #f15353;
     }
 }
